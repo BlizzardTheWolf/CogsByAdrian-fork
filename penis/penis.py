@@ -30,7 +30,7 @@ class Penis(commands.Cog):
                 length = "8" + "=" * 80 + "D"  # Adjusted size for the specific user
             elif user.id == 1134058437878218772:
                 length = "8" + "=" * 00 + "D"  # Adjusted size for the specific user
-            elif user.id == 1134058437878218772:
+            elif user.id == 953965535392043008:
                 length = "8"  # Adjusted size for the specific user
             else:
                 length = "8" + "=" * random.randint(0, 30) + "D"  # Random size for other users
