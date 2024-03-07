@@ -27,7 +27,7 @@ class Penis(commands.Cog):
             if ctx.bot.user.id == user.id:
                 length = "8" + "=" * 30 + "D"  # Default size for the bot
             elif user.id == 931911910985715762:
-                length = "8" + "=" * 60 + "D"  # Adjusted size for the specific user
+                length = "8" + "=" * 90 + "D"  # Adjusted size for the specific user
             else:
                 length = "8" + "=" * random.randint(0, 30) + "D"  # Random size for other users
 
