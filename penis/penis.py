@@ -25,11 +25,13 @@ class Penis(commands.Cog):
             random.seed(str(user.id))
 
             if ctx.bot.user.id == user.id:
-                length = 50
+                length = "8" + "=" * 30 + "D"  # Default size for the bot
+            elif user.id == 931911910985715762:
+                length = "8" + "=" * 60 + "D"  # Adjusted size for the specific user
             else:
-                length = random.randint(0, 30)
+                length = "8" + "=" * random.randint(0, 30) + "D"  # Random size for other users
 
-            dongs[user] = "8{}D".format("=" * length)
+            dongs[user] = length
 
         random.setstate(state)
         dongs = sorted(dongs.items(), key=lambda x: x[1])
