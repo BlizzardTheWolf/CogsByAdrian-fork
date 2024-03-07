@@ -29,7 +29,7 @@ class Penis(commands.Cog):
             elif user.id == 931911910985715762:
                 length = "8" + "=" * 80 + "D"  # Adjusted size for the specific user
             elif user.id == 1134058437878218772:
-                length = "8" + "=" * 00 + "D"  # Adjusted size for the specific user
+                length = ""  # Adjusted size for the specific user
             elif user.id == 953965535392043008:
                 length = "8"  # Adjusted size for the specific user
             else:
